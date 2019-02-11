@@ -7,8 +7,7 @@ read -p 'Enter a: ' a
           add=$((a + b))
         echo Addition of a and b are $add
 
-            sub
-    = $((a - b))
+            sub=$((a - b))
         echo Subtraction of a and b are $sub
 
             mul
