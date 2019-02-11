@@ -10,18 +10,14 @@ read -p 'Enter a: ' a
             sub=$((a - b))
         echo Subtraction of a and b are $sub
 
-            mul
-    = $((a * b))
+            mul=$((a * b))
         echo Multiplication of a and b are $mul
 
-            div
-    = $((a / d))
+            div=$((a / b))
         echo division of a and b are $div
 
-            mod
-    = $((a % b))
-          echo Modulus of a
-      and b are $mod
+            mod=$((a % b))
+          echo Modulus of a and b are $mod
 
       ((++a))
           echo Increment
